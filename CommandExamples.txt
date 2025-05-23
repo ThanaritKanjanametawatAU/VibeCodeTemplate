@@ -30,6 +30,38 @@ project:explore_plan_code_commit user-profile
 project:explore_plan_code_commit payment-integration
 ```
 
+### Workflow Management Commands
+
+#### `project:start_feature [feature-name]`
+Start new feature development with proper branch setup and planning.
+```bash
+# Example: Start user authentication feature
+project:start_feature user-auth
+
+# Example: Start dashboard feature
+project:start_feature dashboard-ui
+```
+
+#### `project:daily_standup [area]`
+Daily development standup to review progress and plan tasks.
+```bash
+# Example: Daily standup for backend work
+project:daily_standup backend
+
+# Example: General daily standup
+project:daily_standup
+```
+
+#### `project:feature_completion [feature-name]`
+Complete feature development with testing, documentation, and PR preparation.
+```bash
+# Example: Complete user auth feature
+project:feature_completion user-auth
+
+# Example: Complete API endpoints
+project:feature_completion api-v2
+```
+
 ### Code Quality Commands
 
 #### `project:code_review_checklist [file/feature]`
@@ -59,6 +91,16 @@ Plan and execute refactoring with safety checks and incremental improvements.
 project:refactoring_strategy auth_legacy.py
 ```
 
+#### `project:code_cleanup [area]`
+Code cleanup and maintenance for better quality and maintainability.
+```bash
+# Example: Clean up user module
+project:code_cleanup user/
+
+# Example: Clean up utilities
+project:code_cleanup utils/
+```
+
 ### Development Workflow Commands
 
 #### `project:debugging_methodology [issue]`
@@ -69,6 +111,16 @@ project:debugging_methodology "users can't login"
 
 # Example: Debug performance issue
 project:debugging_methodology "slow API response"
+```
+
+#### `project:bug_investigation [bug-description]`
+Investigate and fix bugs with systematic approach.
+```bash
+# Example: Investigate data corruption
+project:bug_investigation "user data not saving correctly"
+
+# Example: Fix UI rendering issue
+project:bug_investigation "button not clickable on mobile"
 ```
 
 #### `project:tdd_workflow [feature]`
@@ -88,6 +140,16 @@ project:safe_yolo "fix lint errors"
 project:safe_yolo "run migrations"
 ```
 
+#### `project:workflow_optimization [area]`
+Optimize development workflow for better productivity.
+```bash
+# Example: Optimize testing workflow
+project:workflow_optimization testing
+
+# Example: Optimize build process
+project:workflow_optimization build
+```
+
 ### Specialized Commands
 
 #### `project:api_development [endpoint]`
@@ -102,13 +164,6 @@ Handle database schema, queries, and migrations.
 ```bash
 # Example: Create user table migration
 project:database_operations "create users table"
-```
-
-#### `project:react_component_best_practices [component]`
-Create React components following best practices.
-```bash
-# Example: Create UserProfile component
-project:react_component_best_practices UserProfile
 ```
 
 #### `project:git_operations [action]`
@@ -127,9 +182,7 @@ project:github_interaction "create PR for user-auth"
 
 ### Other Useful Commands
 
-- `project:jupyter_workflow` - Jupyter notebook development workflow
 - `project:devops_deployment` - Deployment and DevOps operations
-- `project:migration_checklist` - Database migration checklist
 - `project:multi_agent_verify` - Multi-agent verification for complex tasks
 - `project:production_ready_implementation` - Ensure production readiness
 - `project:visual_iteration` - Iterative visual development
@@ -137,4 +190,4 @@ project:github_interaction "create PR for user-auth"
 - `project:think_step_by_step` - Structured problem-solving approach
 - `project:prompt_engineering_tips` - Tips for effective prompting
 - `project:codebase_qa` - Q&A about codebase
-- `project:activate_conda` - Conda environment management
+- `project:project_exploration` - Explore project structure and dependencies

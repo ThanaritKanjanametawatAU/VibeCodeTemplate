@@ -40,6 +40,16 @@ This repository includes automation commands in the `.claude/commands/` director
 project:<command_name> [arguments]
 ```
 
+### Available Command Categories:
+
+1. **Core Development** - Project initialization, context understanding, and complete development workflows
+2. **Workflow Management** - Feature development lifecycle from start to completion
+3. **Code Quality** - Code reviews, testing, refactoring, and cleanup
+4. **Development Workflow** - Debugging, bug investigation, TDD, and workflow optimization
+5. **Specialized Operations** - API development, database operations, Git/GitHub interactions
+
+See `CommandExamples.txt` for detailed command usage and examples.
+
 
 ## Notes
 
