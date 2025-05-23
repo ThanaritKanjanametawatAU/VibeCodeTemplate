@@ -1,0 +1,140 @@
+### Core Development Commands
+
+#### `project:init_project [technology]`
+Initialize project setup with CLAUDE.md generation. Creates comprehensive documentation including common commands, code style guidelines, and testing instructions.
+```bash
+# Example: Initialize a React project
+project:init_project react
+
+# Example: Initialize a Python FastAPI project
+project:init_project fastapi
+```
+
+#### `project:context_prime [area]`
+Understand project context by reading key files, exploring structure, and understanding conventions.
+```bash
+# Example: Prime context for authentication system
+project:context_prime authentication
+
+# Example: Prime context for API endpoints
+project:context_prime api
+```
+
+#### `project:explore_plan_code_commit [feature]`
+Complete workflow from exploration to commit. Follows a structured approach: Read & Explore → Plan & Think → Implement → Commit & PR.
+```bash
+# Example: Implement user profile feature
+project:explore_plan_code_commit user-profile
+
+# Example: Add payment integration
+project:explore_plan_code_commit payment-integration
+```
+
+### Code Quality Commands
+
+#### `project:code_review_checklist [file/feature]`
+Comprehensive code review checking security vulnerabilities, code quality, SOLID principles, and more.
+```bash
+# Example: Review authentication module
+project:code_review_checklist auth.py
+
+# Example: Review entire API layer
+project:code_review_checklist api/
+```
+
+#### `project:comprehensive_testing [component]`
+Create comprehensive test suite including unit tests, integration tests, and edge cases.
+```bash
+# Example: Test user service
+project:comprehensive_testing UserService
+
+# Example: Test API endpoints
+project:comprehensive_testing api/endpoints
+```
+
+#### `project:refactoring_strategy [code]`
+Plan and execute refactoring with safety checks and incremental improvements.
+```bash
+# Example: Refactor legacy authentication
+project:refactoring_strategy auth_legacy.py
+```
+
+### Development Workflow Commands
+
+#### `project:debugging_methodology [issue]`
+Systematic debugging approach with reproduction, isolation, and fix verification.
+```bash
+# Example: Debug login failures
+project:debugging_methodology "users can't login"
+
+# Example: Debug performance issue
+project:debugging_methodology "slow API response"
+```
+
+#### `project:tdd_workflow [feature]`
+Test-Driven Development workflow: write tests first, then implementation.
+```bash
+# Example: TDD for user registration
+project:tdd_workflow user-registration
+```
+
+#### `project:safe_yolo [task]`
+Run automated tasks with safety checks (for bulk operations, migrations, etc.).
+```bash
+# Example: Fix all lint errors
+project:safe_yolo "fix lint errors"
+
+# Example: Run database migrations
+project:safe_yolo "run migrations"
+```
+
+### Specialized Commands
+
+#### `project:api_development [endpoint]`
+Develop REST API endpoints with best practices.
+```bash
+# Example: Create user CRUD endpoints
+project:api_development /api/users
+```
+
+#### `project:database_operations [operation]`
+Handle database schema, queries, and migrations.
+```bash
+# Example: Create user table migration
+project:database_operations "create users table"
+```
+
+#### `project:react_component_best_practices [component]`
+Create React components following best practices.
+```bash
+# Example: Create UserProfile component
+project:react_component_best_practices UserProfile
+```
+
+#### `project:git_operations [action]`
+Handle Git operations like branching, committing, and merging.
+```bash
+# Example: Create feature branch
+project:git_operations "create feature/user-auth"
+```
+
+#### `project:github_interaction [action]`
+Interact with GitHub for PRs, issues, and collaboration.
+```bash
+# Example: Create PR for feature
+project:github_interaction "create PR for user-auth"
+```
+
+### Other Useful Commands
+
+- `project:jupyter_workflow` - Jupyter notebook development workflow
+- `project:devops_deployment` - Deployment and DevOps operations
+- `project:migration_checklist` - Database migration checklist
+- `project:multi_agent_verify` - Multi-agent verification for complex tasks
+- `project:production_ready_implementation` - Ensure production readiness
+- `project:visual_iteration` - Iterative visual development
+- `project:quick_fixes` - Quick fixes for common issues
+- `project:think_step_by_step` - Structured problem-solving approach
+- `project:prompt_engineering_tips` - Tips for effective prompting
+- `project:codebase_qa` - Q&A about codebase
+- `project:activate_conda` - Conda environment management

@@ -1,0 +1,40 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ls:*)",
+      "WebFetch(domain:docs.anthropic.com)",
+      "Bash(claude mcp add mcp-installer --scope user --command npx --args \"@anaisbetts/mcp-installer\")",
+      "mcp__brave-search__brave_web_search",
+      "mcp__sequential-thinking__sequentialthinking",
+      "Bash(python:*)",
+      "Bash(conda activate:*)",
+      "Bash(source:*)",
+      "Bash(/usr/bin/du -sh /home/money/.cache/huggingface/hub/datasets--speechcolab--gigaspeech2/)",
+      "mcp__memory__search_nodes",
+      "mcp__Context7__resolve-library-id",
+      "mcp__Context7__get-library-docs",
+      "Bash(grep:*)",
+      "mcp__mcp-server-firecrawl__firecrawl_scrape",
+      "mcp__webresearch__visit_page",
+      "Bash(timeout:*)",
+      "mcp__mcp-puppeteer__puppeteer_evaluate",
+      "mcp__mcp-puppeteer__puppeteer_screenshot",
+      "mcp__mcp-puppeteer__puppeteer_navigate",
+      "mcp__memory__create_entities",
+      "WebFetch(domain:huggingface.co)",
+      "mcp__mcp-puppeteer__puppeteer_click",
+      "Bash(mkdir:*)",
+      "WebFetch(domain:www.anthropic.com)",
+      "WebFetch(domain:github.com)",
+      "Bash(touch:*)",
+      "mcp__desktop-commander__list_directory",
+      "mcp__desktop-commander__read_multiple_files",
+      "mcp__desktop-commander__write_file",
+      "mcp__desktop-commander__edit_block",
+      "mcp__desktop-commander__read_file",
+      "Bash(git init:*)",
+      "Bash(git add:*)"
+    ],
+    "deny": []
+  }
+}
