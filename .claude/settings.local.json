@@ -34,7 +34,8 @@
       "mcp__desktop-commander__read_file",
       "Bash(git init:*)",
       "Bash(git add:*)",
-      "Bash(git commit:*)"
+      "Bash(git commit:*)",
+      "Bash(gh repo create:*)"
     ],
     "deny": []
   }
