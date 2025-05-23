@@ -50,6 +50,9 @@ project:<command_name> [arguments]
 
 See `CommandExamples.txt` for detailed command usage and examples.
 
+## Paths
+
+- Command path: `/media/ssd1/VibeCodeTemplate/.claude/commands`
 
 ## Notes
 
