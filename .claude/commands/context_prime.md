@@ -5,3 +5,4 @@ Understand project context for: $ARGUMENTS
 3. EXPLORE key files related to $ARGUMENTS
 4. CHECK package.json/requirements for deps
 5. UNDERSTAND conventions and patterns
+
